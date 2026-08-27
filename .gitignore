@@ -1,0 +1,20 @@
+# Real credentials — never commit. Copy secrets.example.h to secrets.h.
+RumahPompa/secrets.h
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Arduino IDE
+build/
+*.hex
+*.elf
+*.bin
+
+# Host-side test binaries
+test/build/
+
+# Editors / OS
+.vscode/
+.DS_Store
